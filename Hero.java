@@ -1,4 +1,4 @@
-public class Game{
+public class Hero{
     State jumpingState;
     State duckingState;
     State invisibleState;
@@ -7,7 +7,7 @@ public class Game{
     
     State state = standingState;
 
-    public Game(){
+    public Hero(){
         jumpingState = new JumpingState(this);
         duckingState = new DuckingState(this);
         invisibleState = new InvisisbleState(this);

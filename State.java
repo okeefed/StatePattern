@@ -1,7 +1,9 @@
 public interface State{
 
-    public void upArrow();
-    public void downArrow();
+    public void upPressedArrow();
+    public void upReleasedArrow();
+    public void downPressedArrow();
+    public void downReleasedArrow();
     public void thrownObject();
     public void rolledObject();
     public void fireObject();
