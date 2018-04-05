@@ -2,6 +2,15 @@ public class InvisibleState implements State{
     Hero hero;
     public InvisibleState(Hero hero){
         this.hero = hero;
+		try
+		{
+			Thread.sleep(5000);
+			hero.setState(hero.getStandingState());
+		}
+		catch(InterruptedException e)
+		{
+			e.printStackTrace();
+		}
     }
 
     public void upPressedArrow(){

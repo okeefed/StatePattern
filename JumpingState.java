@@ -5,11 +5,10 @@ public class JumpingState implements State{
     }
 
     public void upPressedArrow(){
-        System.out.println("You are jumping!");
     }
     
     public void upReleasedArrow(){
-        System.out.println("You jumped!");
+        System.out.println("You are standing");
         hero.setState(hero.getStandingState());
     }
 
@@ -19,7 +18,6 @@ public class JumpingState implements State{
     }
 
     public void downReleasedArrow(){
-        System.out.println("You can't do this at this time!");
     }
 
     public void thrownObject(){
