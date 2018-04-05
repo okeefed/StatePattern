@@ -28,3 +28,4 @@ public class DuckingState implements State{
     public void esc(){
     }
 } 
+

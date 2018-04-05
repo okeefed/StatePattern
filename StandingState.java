@@ -28,3 +28,4 @@ public class StandingState implements State{
     public void esc(){
     }
 } 
+

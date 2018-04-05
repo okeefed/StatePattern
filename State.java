@@ -9,3 +9,4 @@ public interface State{
     public void fireObject();
 
     public void esc();
+

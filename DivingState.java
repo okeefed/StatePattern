@@ -28,3 +28,4 @@ public class DivingState implements State{
     public void esc(){
     }
 } 
+
